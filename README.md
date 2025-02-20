@@ -64,12 +64,33 @@ svelte-boiler-plate
 ├─ package.json
 ├─ README.md
 ├─ src
+│  ├─ app.css
 │  ├─ app.d.ts
 │  ├─ app.html
 │  ├─ lib
-│  │  └─ index.ts
+│  │  ├─ index.ts
+│  │  ├─ infrastructure
+│  │  │  └─ infrastructure.md
+│  │  ├─ stores
+│  │  │  └─ stores.md
+│  │  ├─ types
+│  │  │  └─ types.md
+│  │  └─ utils
+│  │     └─ utils.md
+│  ├─ presentation
+│  │  ├─ components
+│  │  │  └─ components.md
+│  │  ├─ layouts
+│  │  │  └─ layouts.md
+│  │  └─ styles
+│  │     └─ styles.md
 │  └─ routes
-│     └─ +page.svelte
+│     ├─ +layout.svelte
+│     ├─ +page.svelte
+│     └─ your-path-page
+│        ├─ +page.svelte
+│        └─ [your_id]
+│           └─ +page.svelte
 ├─ static
 │  └─ favicon.png
 ├─ svelte.config.js
