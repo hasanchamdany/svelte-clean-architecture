@@ -1,0 +1,1 @@
+this is layout folder, you can use it as the name, yeah. if you need custom layout from the root layout to your child page you can use this folder to build your custom layout and simply export it and used it into your routes directory to implement your layout to your specific page
